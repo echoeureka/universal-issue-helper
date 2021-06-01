@@ -1,11 +1,11 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import BugReport from "./components/bug-report.vue";
-import FeatureRequest from "./components/feature-request.vue";
+import BugReport from "./components/BugReport.vue";
+import FeatureRequest from "./components/FeatureRequest.vue";
 
 const routes: any[] = [
   { path: "/", redirect: "/bug-report" },
-  { path: "/bug-report", component: BugReport },
-  { path: "/feature-request", component: FeatureRequest },
+  { path: "/bugReport", component: BugReport },
+  { path: "/featureRequest", component: FeatureRequest },
 ];
 
 export const router = createRouter({

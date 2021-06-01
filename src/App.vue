@@ -6,9 +6,9 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AppHeader from "./components/app-header.vue";
-import AppFooter from "./components/app-footer.vue";
-import AppBody from "./components/app-body.vue";
+import AppHeader from "./components/AppHeader.vue";
+import AppFooter from "./components/AppFooter.vue";
+import AppBody from "./components/AppBody.vue";
 
 export default defineComponent({
   name: "App",
