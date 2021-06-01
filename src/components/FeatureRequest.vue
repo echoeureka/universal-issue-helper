@@ -1,8 +1,6 @@
 <template>
-  <div style="margin-top: 20px">
-    <div>Issue title</div>
-    <el-input class="input" size="medium" clearable style="margin: 6px 0" />
-    <div style="margin-top: 14px">What problem does this feature solve?</div>
+  <div style="margin-top: 14px">
+    <div>What problem does this feature solve?</div>
     <el-input type="textarea" style="margin: 6px 0" />
     <div style="color: #476582">
       Explain your use case, context, and rationale behind this feature request.

@@ -22,9 +22,18 @@
         </div>
       </div>
     </div>
+    <div style="margin-top: 14px">Issue title</div>
+    <el-input v-model="title" size="medium" clearable style="margin: 6px 0" />
     <router-view />
-    <div style="display: flex; justify-content: center; align-items: center">
-      <el-button type="primary" style="margin-top: 14px">Preview</el-button>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 28px;
+      "
+    >
+      <el-button type="primary">Preview</el-button>
     </div>
   </div>
 </template>
@@ -38,16 +47,8 @@ export default defineComponent({
     return {
       path: "",
       params: "",
+      title: "",
     };
-  },
-  methods: {
-    changeSelected(e: any) {
-      console.log(e);
-      e.target.classList.add("selected");
-    },
-    setPath(params: string) {
-      this.params = params;
-    },
   },
 });
 </script>
@@ -95,7 +96,7 @@ input:focus {
 :deep() input.el-input__inner,
 :deep() textarea.el-textarea__inner {
   background-color: rgb(236, 245, 255);
-  text-align: center;
+  /* text-align: center; */
 }
 
 :deep() input.el-input__inner:focus,

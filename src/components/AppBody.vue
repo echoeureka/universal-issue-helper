@@ -21,6 +21,5 @@ export default defineComponent({
 .body {
   width: 830px;
   margin: 0 auto;
-  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
 }
 </style>

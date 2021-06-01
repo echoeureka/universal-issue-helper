@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    inspired by&nbsp;
+    Inspired by&nbsp;
     <a href="https://github.com/vuejs/vue-issue-helper">vue-issue-helper</a
     >&nbsp;and&nbsp;
     <a href="https://github.com/ecomfe/echarts-issue-helper"
@@ -19,7 +19,7 @@ export default defineComponent({
 
 <style scoped>
 .footer {
-  margin-top: 30px;
+  margin-top: 42px;
   font-size: 13px;
   text-align: center;
   height: 27px;
@@ -27,6 +27,6 @@ export default defineComponent({
 a {
   color: rgb(83, 168, 255);
   text-decoration: none;
-  font-size: 13px;
+  font-size: 14px;
 }
 </style>

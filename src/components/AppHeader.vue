@@ -1,9 +1,9 @@
 <template>
   <div class="header">
-    <div class="header-title">✨ Universal Issue Helper</div>
+    <div class="header-title">✨ Issue Helper</div>
     <div class="header-tags">
-      <span class="header-tag-en select">English</span>
-      <span class="header-tag-zh">中文</span>
+      <span class="header-tag-en select">en</span>
+      <span class="header-tag-zh">zh-CN</span>
     </div>
   </div>
 </template>
@@ -29,7 +29,7 @@ export default defineComponent({
   --blue-900: rgb(83, 168, 255);
   background-color: var(--blue-100);
   color: #2c3e50;
-  height: 73px;
+  height: 53px;
   text-align: center;
   display: flex;
   justify-content: center;

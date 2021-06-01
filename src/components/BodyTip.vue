@@ -41,19 +41,17 @@ export default defineComponent({
 <style scoped>
 .tip {
   background-color: rgb(236, 245, 255);
-  padding: 24px;
-  margin: 24px 0;
-  border-radius: 7px;
-  color: #2c3e50;
-  font-size: 10px;
+  padding: 14px;
+  margin: 14px 0;
+  border-radius: 6px;
 }
 .list-container {
-  margin-top: 10px;
+  margin-top: 14px;
 }
 .list {
   margin-top: 5px;
-  margin-bottom: 10px;
-  margin-left: 40px;
+  margin-bottom: 14px;
+  margin-left: 42px;
 }
 a {
   color: rgb(83, 168, 255);
